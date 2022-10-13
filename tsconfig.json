@@ -6,6 +6,7 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "noImplicitAny": false,//added as new
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -22,6 +23,7 @@
       "es2020",
       "dom"
     ]
+    ,"strictPropertyInitialization": false,//new addon
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
